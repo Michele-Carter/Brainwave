@@ -1,3 +1,10 @@
+import sonar from "./sonar.svg";
+import orbit from "./orbit.svg";
+import jollaenda from "./jollaenda.svg";
+import spirit from "./spirit.svg";
+import fse from "./fse.svg";
+
+
 import brainwave from "./brainwave.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
@@ -144,4 +151,9 @@ export {
   instagram,
   telegram,
   twitter,
+  sonar,
+  orbit,
+  fse,
+  jollaenda,
+  spirit,
 };

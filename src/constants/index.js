@@ -33,7 +33,11 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
+  sonar, 
+  orbit,
+  fse,
+  jollaenda,
+  spirit,
 } from "../assets";
 
 export const navigation = [
@@ -75,7 +79,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [fse, sonar, jollaenda, orbit, spirit];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -278,16 +282,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Enhanced Productivity",
+    text: "Saves users time by providing instant answers and solutions, allowing them to focus on more critical tasks without delay.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Personalized Learning",
+    text: "Adapts to individual user needs over time, offering personalized responses and suggestions, making it more effective and user-friendly",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
