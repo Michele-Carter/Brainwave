@@ -41,9 +41,11 @@ const Pricing = () => {
         <div className="flex justify-center mt-10">
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            // href="#pricing"
+            href="/#" // Dummy href to keep it a link but avoid navigation
+            onClick={(e) => e.preventDefault()} // Prevents any action on click
+            style={{ cursor: 'pointer'}} // Changes cursor to a hand on hover
           >
-            See the full details
+            See full details
           </a>
         </div>
       </div>
